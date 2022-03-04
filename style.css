@@ -1,0 +1,139 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+body {
+	background-color: #ff7a7a;
+	background-image: url("images/bg-intro-desktop.png");
+}
+
+.left-side {
+	position: absolute;
+	color: white;
+	margin: 5% 0px 0px 10%;
+
+}
+
+.right-side {
+	position: relative;
+	margin: 0 0 0 50% ;
+}
+
+.upper-info {
+	border: #6055a5 solid;
+	background-color: #6055a5;
+ 	box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.2);
+	color: white;
+	border-radius: 15px;
+	width: 485px;
+	margin-top: 100px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+
+.info-box {
+	width: 450px;
+	border-radius: 15px;
+ 	box-shadow: 0px 5.5px 0px 0px rgba(0, 0, 0, 0.2);
+	background: #fff;
+	padding: 30px 0px 40px 40px;
+	margin: 0 0 11% 0;
+}
+
+.input {
+	margin: 0px 0px 20px 0px;
+}
+
+.form__input--error {
+	color: red;
+	border-color: red;
+}
+
+.form__input-error-message {
+	text-align: right;
+	margin-right: 25px;
+	margin-top: 0.5rem;
+	font-size: 0.85rem;
+	color: red;
+}
+
+.form__message--success {
+    color: var(--color-success);
+}
+
+.form-hidden {
+	display: none;
+}
+
+/*.form-message-error {
+	text-align: right;
+	margin-top: 5px;
+	margin-right: 25px;
+	font-size: 0.85rem;
+}
+
+.form-input-error {
+	color: red;
+	border-color: red;
+}*/
+
+#text-pad {
+ 	font-weight: 700;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.claim-button {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	font-weight: 600;
+	border-radius: 5px;
+	border: none;
+}
+
+.terms-services {
+	color: #b9b6d3;
+	font-family: sans-serif;
+	font-weight: 100;
+	font-size: 10px;
+	margin: 5% 0 0 12%;
+}
+
+a.terms {
+	font-weight: 900;
+	color: #ff7a7a;
+	text-decoration: none;
+
+}
+
+a:hover {
+  color: #EB7171;
+}
+
+input {
+	display: inline-block;
+	width: 400px;
+	height: 50px;
+	border-radius: 5px;
+	border-color: #D6D6D6;
+	border-top: solid #D6D6D6 2px;
+	border-left: solid #D6D6D6 2px;
+}
+
+button {
+	width: 425px;
+	height: 50px;
+	background-color: #38cc8c;
+}
+
+button:hover {
+	background-color: #34BA80;
+}
+
+h1 {
+	font-size: 50px;
+}
+
+p, h1 {
+	font-family: 'Poppins', sans-serif;
+}
